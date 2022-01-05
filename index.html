@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Admin Template</title>
+    <script
+      src="https://kit.fontawesome.com/19699f7fb1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- NAVIGATION BAR STARTS -->
@@ -35,8 +40,7 @@
           <form action="" class="d-flex">
             <input
               type="search"
-              name="Search
-              "
+              name="search"
               placeholder="Search.."
               class="form-control mx-lg-2"
             />
@@ -49,6 +53,96 @@
     <!-- NAVIGATION ENDS -->
 
     <!-- FIRST AND SECOND ROW STARTS-->
+    <div class="main-content">
+      <div class="container-fluid">
+        <div class="col-12 my-2">
+          <div class="mt-5 py-3 px-5 bg-white shadow-sm rounded-3">
+            <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+              <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active">
+                  <a href="#">Statistics</a>
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Shadowed boxes -->
+        <div class="row">
+          <div class="col-lg-3 py-3">
+            <div
+              class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4"
+            >
+              <div>
+                <p class="small">Customers</p>
+                <p class="fs-3 fw-bold">25,544</p>
+                <p class="mb-0">
+                  <span class="text-danger me-1"
+                    ><i class="fas fs-arrow-down"></i>2.23%</span
+                  >
+                  Since last month
+                </p>
+              </div>
+              <i class="fas fa-user-check fa-2x stats"></i>
+            </div>
+          </div>
+          <div class="col-lg-3 py-3">
+            <div
+              class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4"
+            >
+              <div>
+                <p class="small">Orders</p>
+                <p class="fs-3 fw-bold">25,544</p>
+                <p class="mb-0">
+                  <span class="text-success me-1"
+                    ><i class="fas fa-arrow-up"></i>5.23%</span
+                  >
+                  Since last month
+                </p>
+              </div>
+              <i class="fas fa-cart-plus fa-2x stats"></i>
+            </div>
+          </div>
+          <div class="col-lg-3 py-3">
+            <div
+              class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4"
+            >
+              <div>
+                <p class="small">Revenue</p>
+                <p class="fs-3 fw-bold">2,456$</p>
+                <p class="mb-0">
+                  <span class="text-success me-1"
+                    ><i class="fas fa-arrow-up"></i>2.23%</span
+                  >
+                  Since last month
+                </p>
+              </div>
+              <i class="fas fa-dollar-sign fa-2x stats"></i>
+            </div>
+          </div>
+          <div class="col-lg-3 py-3">
+            <div
+              class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4"
+            >
+              <div>
+                <p class="small">Growth</p>
+                <p class="fs-3 fw-bold">15.33%</p>
+                <p class="mb-0">
+                  <span class="text-success me-1"
+                    ><i class="fas fa-arrow-up"></i>1.23%</span
+                  >
+                  Since last month
+                </p>
+              </div>
+              <i class="fas fa-chart-bar fa-2x stats"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FIRST END SECOND ROW ENDS -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
